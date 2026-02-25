@@ -4,4 +4,13 @@
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: #94ddf1;
+}
+
+h1{
+  color:white;
+}
+html {
+  scroll-behavior: smooth;
 }
