@@ -7,23 +7,23 @@ export const EducationExperience = () => {
       //className="min-h-screen py-28"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1, ease: "easeOut" }}
+      transition={{ duration: .7, ease: "easeOut" }}
       viewport={{ once: false, amount: 0.2 }}
-      className="min-h-screen flex justify-center px-6 py-20 bg-base-200"
+      className="min-h-screen flex justify-center px-6 py-12 bg-base-200"
     >
       <div className="max-w-3xl w-full">
 
         {/* Section Title */}
-        <h2 className="text-4xl font-bold mb-12 text-center">
+        <h2 className="text-4xl font-bold mb-10 text-center">
           Education & Experience
         </h2>
 
         {/* Education Block */}
-        <div className="mb-12">
+        <div className="mb-6">
           <h3 className="text-2xl font-semibold">
             University of California, Irvine
           </h3>
-          <p className="text-sm text-white mb-2">
+          <p className="text-sm text-white">
             B.S. Computer Science | Minor in Management
           </p>
           <p className="text-sm text-gray-500 mb-4">
@@ -39,11 +39,11 @@ export const EducationExperience = () => {
 
 
         {/* Experience Block */}
-        <div className="mb-12">
+        <div className="mb-6">
           <h3 className="text-2xl font-semibold">
             Undergraduate Learning Assistant
           </h3>
-          <p className="text-sm text-white mb-2">
+          <p className="text-sm text-white">
             UCI Donald Bren School of Information and Computer Sciences
           </p>
           <p className="text-sm text-gray-500 mb-4">
@@ -63,7 +63,7 @@ export const EducationExperience = () => {
             <h3 className="text-2xl font-semibold">
             Assistant Manager
           </h3>
-          <p className="text-sm text-white mb-2">
+          <p className="text-sm text-white">
             Villa George Enterprises LLC
           </p>
           <p className="text-sm text-gray-500 mb-4">
