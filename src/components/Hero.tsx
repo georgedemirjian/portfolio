@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { GithubButton } from './GithubButton'
 import { LinkedinButton } from './LinkedinButton'
 import { HeroCanvas } from './HeroCanvas'
