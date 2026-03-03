@@ -14,3 +14,7 @@ h1{
 html {
   scroll-behavior: smooth;
 }
+
+section[id], div[id] {
+  scroll-margin-top: 70px; /* match your navbar height */
+}
