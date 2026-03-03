@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { motion } from "framer-motion"
 import {
   FaPython, FaJava, FaReact, FaHtml5, FaCss3Alt, FaGithub, FaLinux
