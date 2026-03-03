@@ -7,6 +7,7 @@ import { Projects } from './components/Projects'
 import { Skills } from './components/Skills'
 import { Contact } from './components/Contact'
 import { MobileNavbar } from './components/MobileNavbar'
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Projects/>
       <Skills/>
       <Contact/>
+      <Analytics />
     </>
   )
 }
