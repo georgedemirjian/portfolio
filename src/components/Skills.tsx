@@ -1,7 +1,7 @@
 
 import { motion } from "framer-motion"
 import {
-  FaPython, FaJava, FaReact, FaHtml5, FaCss3Alt, FaGithub, FaLinux
+  FaPython, FaJava, FaReact, FaHtml5, FaCss3Alt, FaGithub, FaLinux, FaAws, FaRProject
 } from "react-icons/fa"
 import {
   SiTypescript, SiJavascript, SiCplusplus, SiC, SiMysql,
@@ -19,6 +19,7 @@ const skillGroups = [
       { name: "C",          icon: <SiC /> },
       { name: "Java",       icon: <FaJava /> },
       { name: "SQL",        icon: <SiMysql /> },
+      { name: "R",          icon: <FaRProject />}
     ]
   },
   {
@@ -38,6 +39,7 @@ const skillGroups = [
       { name: "GitHub",  icon: <FaGithub /> },
       { name: "Linux",   icon: <FaLinux /> },
       { name: "Arduino", icon: <SiArduino /> },
+      { name: "AWS (S3, EC2, VPC, RDS)", icon: <FaAws />},
     ]
   }
 ]
